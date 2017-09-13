@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      SAO Documents
+    </ion-title>
+    <ion-searchbar placeholder="Rechercher..." (ionInput)="getItems($event)"></ion-searchbar>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-list>
+  <button [ngClass] = "{'chevron' : item.sousMenu.length > 0 }" ion-item *ngFor="let item of items" (click)="openAndroidPDF3(item)">
+    {{ item.title }}
+  </button>  
+</ion-list>
+
+</ion-content>

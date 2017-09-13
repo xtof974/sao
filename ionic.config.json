@@ -1,0 +1,8 @@
+{
+  "name": "pdfExample",
+  "app_id": "7eb56957",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
