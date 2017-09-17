@@ -67,7 +67,7 @@ export class HomePage {
                           new LienPDF('Communiqué 1 Moderne', []),
                           new LienPDF('Communiqué 2 Moderne', []),
                           new LienPDF('Communiqué 1 VHC', []), 
-                          new LienPDF('Communiqué 2 VHC', [])]), 
+                          new LienPDF('Communiqué 2 VHC', [])])]), 
                    new LienPDF('FFSA', [
                       new LienPDF('Nomination d Officiels', []),
                       new LienPDF('Visa FFSA et Ligue', []),
