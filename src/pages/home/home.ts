@@ -49,62 +49,74 @@ export class HomePage {
                    new LienPDF('Horaires',  []),
                    new LienPDF('Postes Officiels Terrains', []), 
                    new LienPDF('Collège des Commissaires Sportifs',  [
-                      new LienPDF('Réunions Collège Modernes', []),
+                      new LienPDF('Réunion Collège Modernes', []),
                       new LienPDF('Réunion Collège VHC', [])]), 
                    new LienPDF('Chargés des Relations avec les Concurrents', [
                       new LienPDF('Programme CRAC Modernes', []),
                       new LienPDF('Programme CRAC VHC', [])]),
                    new LienPDF('Juges de Faits', [
-                      new LienPDF('Programme Juges de Faits VHC', []),
-                      new LienPDF('Programme Juges de Faits Moderne', [])]), 
+                      new LienPDF('Programme Juges de Faits Moderne', []),
+                      new LienPDF('Programme Juges de Faits VHC', [])]), 
                    new LienPDF('Additifs - Communiqués', [
                       new LienPDF('Additifs', [
                           new LienPDF('Additif 1 Moderne', []),
-                          new LienPDF('Additif 1 VHC', [])]),
+                          new LienPDF('Additif 2 Moderne', []),
+                          new LienPDF('Additif 1 VHC', []),
+                          new LienPDF('Additif 2 VHC', [])]),
                       new LienPDF('Communiqués', [
-                          new LienPDF('Communiqué 1 Publicité Moderne', []),
-                          new LienPDF('Communiqué 1 Publicité VHC', [])])]), 
+                          new LienPDF('Communiqué 1 Moderne', []),
+                          new LienPDF('Communiqué 2 Moderne', []),
+                          new LienPDF('Communiqué 1 VHC', []), 
+                          new LienPDF('Communiqué 2 VHC', [])]), 
                    new LienPDF('FFSA', [
-                      new LienPDF('Nomination des Officiels', []),
+                      new LienPDF('Nomination d Officiels', []),
                       new LienPDF('Visa FFSA et Ligue', []),
                       new LienPDF('Règlements', [
                           new LienPDF('Règlement Moderne', []),
                           new LienPDF('Règlement VHC', [])])]),
                    new LienPDF('Arrêtés', [
                       new LienPDF('Arrêté Préfectoral', []),
-                      new LienPDF('Conseil Départemental', [
-                          new LienPDF('Plan de Déviation', [])]),
+                      new LienPDF('Arrêté Conseil Départemental', []),
+                      new LienPDF('Plan de Déviations', []),
                       new LienPDF('Conseils Municipaux', [
                           new LienPDF('Arrêté La Rochelle', []),
                           new LienPDF('Arrêté Surgères', []),
-                          new LienPDF('Arrêté Base Essai', []),
-                          new LienPDF('Arrêté ES1', []),
-                          new LienPDF('Arrêté ES2', []),
-                          new LienPDF('Arrêté ES3', []),
-                          new LienPDF('Arrêté ES4', [])])]), 
+                          new LienPDF('Arrêté Aigrefeuille', []),
+                          new LienPDF('Arrêté Communes ES Base Essais', []),
+                          new LienPDF('Arrêté Communes ES1', []),
+                          new LienPDF('Arrêté Communes ES2', []),
+                          new LienPDF('Arrêté Communes ES3', []),
+                          new LienPDF('Arrêté Communes ES4', []),
+                          new LienPDF('Arrêté Communes ES5', []),
+                          new LienPDF('Arrêté Autres Collectivités', [])])]), 
                    new LienPDF('Assurances', [
                       new LienPDF('Assurance - Attestation', []),
                       new LienPDF('Assurance - Contrat', [])]), 
                    new LienPDF('Liaisons Téléphoniques',  [
                       new LienPDF('Annuaire 1 Sécurité Rallye PC et Terrain', []),
                       new LienPDF('Annuaire 2 Officiels Global', []),
-                      new LienPDF('Annuaire 4 Concurrents', [])]),
+                      new LienPDF('Annuaire 3 Commissaires', []),
+                      new LienPDF('Annuaire 4 Concurrents', []),
+                      new LienPDF('Annuaire 5 Organisation', []),
+                      new LienPDF('Annuaire 6 Véhicules Encadrement', [])]),
                    new LienPDF('Liaisons Radios', []),
                    new LienPDF('Vérifications Administratives et Techniques', [
                       new LienPDF('Plan Accès Parc Remorques - Vérif', []),
                       new LienPDF('Vérifications Modernes Organisation', []),
                       new LienPDF('Vérifications VHC Organisation', [])]), 
-                   new LienPDF('Parc Fermé', [
+                   new LienPDF('Organisation des Parcs', [
                       new LienPDF('Parc Assistance la Rochelle', []),
-                      new LienPDF('Parc Assistance Surgères', []),
-                      new LienPDF('Parc Fermé la Rochelle', []),
-                      new LienPDF('Parc Regroupement - Parc Fermé Surgères', [])]), 
+                      new LienPDF('Parc Regroupement - Parc Fermé La Rochelle', []),
+                      new LienPDF('Parc Fermé Surgères', []),
+                      new LienPDF('Pauses Gourmandes', []),
+                      new LienPDF('Zone Ravitaillement Carburant', [])]), 
                    new LienPDF('Organisation des ES', [
                       new LienPDF('Organisation ES Base Essais', []),
-                      new LienPDF('Organisation ES1 Aigrefeuille', []),
-                      new LienPDF('Organisation ES2 CDA LA Rochelle', []),
-                      new LienPDF('Organisation ES3 CD 17', []),
-                      new LienPDF('Organisation ES4 CDC Aunis Sud', [])]),
+                      new LienPDF('Organisation ES1', []),
+                      new LienPDF('Organisation ES2', []),
+                      new LienPDF('Organisation ES3', []),
+                      new LienPDF('Organisation ES4', []),
+                      new LienPDF('Organisation ES5', [])]),
                    new LienPDF('Transmission des Temps',[]),
                    new LienPDF('Retour des Documents du PC', [
                       new LienPDF('Retour des Documents Modernes au PC', []),
@@ -121,15 +133,14 @@ export class HomePage {
                       new LienPDF('Dépanneuses', []),
                       new LienPDF('Secouristes', []),
                       new LienPDF('Gendarmerie', []),
-                      new LienPDF('Courrier Divers Hopitaux - SAMU', [])]),
+                      new LienPDF('Courrier Divers', [])]),
                    new LienPDF('Consignes Générales', [
                       new LienPDF('Consignes Directeur D épreuves', []),
                       new LienPDF('Consignes Contrôles Horaires', []),
                       new LienPDF('Consignes Point Stop', []),
                       new LienPDF('Consignes Chronomètreurs', []),
-                      new LienPDF('Commissaires Techniques', []),
-                      new LienPDF('Consignes Commissaires Techniques VHC', []),
                       new LienPDF('Consignes Commissaires Techniques Modernes', []),
+                      new LienPDF('Consignes Commissaires Techniques VHC', []),
                       new LienPDF('Consignes Commissaires Parcs Regroupement', []),
                       new LienPDF('Consignes Commissaires', []),
                       new LienPDF('Consignes Cibistes Radio', [])]),
@@ -173,7 +184,7 @@ export class HomePage {
 
  } else {
 
-   let tempTitle = lien.title.replace(/ /gi, "_").replace(/é/gi, "e").replace(/è/gi, "e").replace(/ê/gi, "e").toUpperCase();
+   let tempTitle = lien.title.toUpperCase().replace(/[ÁÀÄÂ]/, 'A').replace(/[ÉÈËÊ]/, 'E').replace(/[ÍÌÏÎ]/, 'I').replace(/[ÓÒÖÔ]/, 'O').replace(/[ÚÙÜÛ]/, 'U');
    let tempLocation = this.location + tempTitle + '.pdf';
 
    //this.test = tempLocation;
